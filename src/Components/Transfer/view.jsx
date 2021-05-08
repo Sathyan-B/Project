@@ -4,7 +4,7 @@ import Header from '../Header';
 // import Responsive from 'react-responsive-decorator';
 
 function getData(){
- 	return fetch("http://localhost:3000/data")
+ 	return fetch("http://localhost:3001/data")
 		.then(res => {return res.json()})
 		.then(data =>{ 
 			return data;
