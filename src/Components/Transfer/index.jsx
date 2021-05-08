@@ -5,7 +5,7 @@ import {withRouter} from 'react-router-dom';
 import {Link} from 'react-router-dom'
 
 function getData(){
- 	return fetch("http://localhost:3000/data")
+ 	return fetch("http://localhost:3001/data")
 		.then(res => {return res.json()})
 		.then(data =>{ 
 			return data;
